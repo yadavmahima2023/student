@@ -10,6 +10,9 @@ $address_name=$_POST['address_name'];
 $inst=mysqli_query($conn,"insert into student SET first_name='$first_name', last_name='$last_name', age='$age', address='$address_name'");
 
 
+
+
+
 } 
  ?>
 
